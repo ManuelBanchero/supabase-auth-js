@@ -1,0 +1,101 @@
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.form-container {
+    border: .5px solid gray;
+    border-radius: 15px;
+    padding: 2.2em;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 1.5px;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: .5px solid gray;
+    padding: 0 1em 0 1em;
+}
+
+.form-fieldset {
+    border-radius: 5px;
+    border: .5px solid gray;
+}
+
+.form-fieldset .radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-fieldset .radio-group label {
+    display: flex;
+    align-items: center;
+}
+
+.form-fieldset .radio-group label input {
+    margin-top: 0;
+}
+
+button {
+    width: 100%;
+    font-size: inherit;
+    padding: .75em 1em;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.policy-text {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.policy-text>span {
+    text-decoration: underline;
+}
+
+.login-cta {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-cta>p {
+    text-align: center;
+    flex: 1;
+    color: gray;
+}
+
+.login-cta>span {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(188, 188, 188);
+}
+
+.cta-btn {
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    border-radius: 20px;
+}
