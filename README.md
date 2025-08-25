@@ -85,7 +85,6 @@ create table public.user_profiles (
 5- In Supabase, create the following Trigger:
 
 ```sql
--- trigger function (what happens, into where, with?)
 create function public.handle_new_user()
 returns trigger
 language plpgsql
@@ -103,7 +102,6 @@ begin
 end;
 $$;
 
--- trigger object (when, after/before?)
 create trigger on_auth_user_created
   after insert on auth.users
   for each row
